@@ -1,0 +1,110 @@
+.myaccount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    margin: auto;
+    color: #ffffff;
+}
+
+/* Profile Image */
+.imag {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #333;
+    padding: 5px;
+    border: 2px solid #4CAF50;
+    margin-bottom: 15px;
+}
+
+/* Username */
+.yasirr {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+/* Email */
+.mail {
+    font-size: 16px;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+}
+
+/* Profile Container */
+.full {
+    width: 100%;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Info Box */
+.border {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Labels */
+.fullname, .dob, .age, .gender, .state, .address, .lang {
+    font-size: 16px;
+    font-weight: bold;
+    color: #bbb;
+}
+
+/* Data */
+.first-last span,
+.dob2, .age2, .gender2, .state2, .address2, .lang2 {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+/* User Information Placeholder */
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+/* No Profile Icon */
+.sign {
+    font-size: 40px;
+    color: #ff5252;
+    margin-top: 10px;
+}
+
+/* Add Data Button */
+.adddata {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.adddata:hover {
+    background-color: #388E3C;
+}

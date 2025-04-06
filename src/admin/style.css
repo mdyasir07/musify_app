@@ -1,0 +1,15 @@
+.admin{
+    flex-grow: 1; /* Take remaining space */
+    padding: 20px;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar{
+    width: 200px; /* Adjust width */
+    height: 10ovh;
+}
+.section{
+    display: flex; 
+}

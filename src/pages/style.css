@@ -1,0 +1,230 @@
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0%;
+}
+.reset-page{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(50, 48, 66);
+    /* font-size: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color:darkolivegreen;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(50, 48, 66);
+    /* font-size: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regsiter{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(50, 48, 66);
+    /* font-size: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form{
+    /* text-align: center; */
+    background-color: rgb(28, 29, 42);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 60%;
+    padding:0px 25px  0px  ;
+
+    
+     justify-content: center;
+     /* align-items: center; */
+     border: 2px  solid rgb(38, 35, 35);
+     position: relative;
+     /* top: 80px; */
+     left: 140px;
+}
+.input{
+    /* text-align: center; */
+    border: 1px solid white;
+    /* border-radius: 20px; */
+    padding: 10px 1px;
+    background-color:  rgb(50, 48, 66);
+    /* text-align: right; */
+    outline: auto;
+
+}
+.label{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    
+
+}
+.log{
+    text-align: center;
+    padding: 6px 5px;
+    background-color: rgb(162, 37, 162);
+    /* outline: auto; */
+    color: white;
+    border: 2px solid  rgb(162, 37, 162) ;
+    font-size: 19px;
+}
+.reg{
+    position: relative;
+    bottom: 38%;
+    right: 16%;
+    /* outline: auto; */
+    color:  rgb(162, 37, 162);
+}
+span{
+ color: white;
+ /* position: relative;
+ left: 80%;
+ bottom: 24px; */
+}
+.eye{
+    position: relative;
+ left: 90%;
+ bottom: 27px;
+ height: 20px;
+ width: 20px;
+}
+.form-login{
+    background-color: rgb(28, 29, 42);
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 0px;
+    width: 23%;
+    /* width: 400px; */
+    height: 350px;
+   
+    
+}
+.LOGIN{
+    position: relative;
+    bottom: 380px;
+    left: 15%;
+    /* outline: auto; */
+    color:  rgb(162, 37, 162)
+
+}
+.label-login{
+    color: white;
+    font-size: 20px;
+}
+.input-login{
+    /* text-align: center; */
+    border: 1px solid white;
+    /* border-radius: 20px; */
+    padding: 10px 1px;
+    background-color:  rgb(50, 48, 66);
+    /* text-align: right; */
+    outline: auto;
+    position: relative;
+
+
+}
+.create{
+    background-color: rgb(28, 29, 42);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+
+}
+.create1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.click{
+    font-size: 17px;
+     color: rgb(48, 116, 179) ;
+  position: relative;
+  bottom: 50px;
+  right: 50px;
+
+   
+}
+.click:hover{
+    color: rgb(48, 116, 179);
+}
+.account{
+    display: flex;
+    justify-content: space-between;
+}
+.navlink{
+    color: whitesmoke;
+}
+.navlink:hover{
+    color: rgb(48, 116, 179);
+}
+.forget{
+    display: flex;
+    justify-content: space-between;
+}
+.reset{
+    font-size: 16px;
+    color: white;
+
+}
+.reset:hover{
+    color: rgb(48, 116, 179) ;
+}
+.new{
+    position: relative;
+  bottom: 50px;
+  left: 20px;
+  font-size: 20px;
+}
+.form-reset{
+    background-color: rgb(28, 29, 42);
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 0px;
+    width: 30%;
+    
+    
+}
+.password{
+    color:  rgb(162, 37, 162);
+    position: relative;
+    bottom: 250px;
+    left: 70PX;
+    color: whitesmoke;
+}
+.back{
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+    font-size: 25px;
+    color:  rgb(48, 116, 179);
+}
+
+
+
+
+
+
+
+

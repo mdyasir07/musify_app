@@ -1,0 +1,120 @@
+.my{
+    color: whitesmoke;
+    padding-left: 20px;
+}
+.flex{
+    display: flex;
+}
+.minnale{
+    width: 100%;
+    height: 60%;
+    /* margin-left: 60px; */
+    border-radius: 10px;
+    /* background-color: #1e293b; */
+}
+.minnale2{
+    width: 64%;
+    height: 65%;
+    padding: 60px;
+     /* background-color: #1e293b; */
+     background-color: #2b3341;
+
+
+    /* margin-left: 60px; */
+  
+
+}
+
+.mtilte{
+
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    color: white;
+    text-decoration: none;
+    
+}
+/* .minnale:hover + .mtilte{
+    margin-left: 106px;
+    c
+    color: white;
+    display: block;
+} */
+.album-card{
+    width: 50%;
+    padding-bottom: 30px;
+    height: 200%;
+    padding:10px;
+    margin-left: 60px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #3E4B62;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-decoration: none;
+}
+.full-album{
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    /* margin-top: 20px; */
+
+   padding-bottom: 30px;
+
+
+}
+.album-details{
+   background-color: #2b3341;
+    width: 70%;
+    /* height: 450px; */
+    /* padding: 20px; */
+    margin: 20px 170px;
+    display: flex;
+    /* margin-right: 60px; */
+    
+
+}
+
+.album-card:hover {
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.side-album{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+    padding-right: 50px;
+}
+.album-title{
+    padding-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+.album-dis{
+    color: white;
+}
+.album-lang{
+    color: white;
+}
+.song-details{
+    display: flex;
+    gap: 12%;
+    margin-top: 50px;
+    padding-left: 20px;
+    /* padding: 10px; */
+    padding-right: 10px;
+
+    /* padding-top: 3%; */
+    border: 1px solid white;
+    /* width: 20px; */
+    /* height: 10px; */
+    justify-content: center;
+    align-items: center;
+}
+.song-cover{
+    height: 10%;
+    width: 60px;
+}
+

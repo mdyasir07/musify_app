@@ -1,0 +1,151 @@
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:55px;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: oblique;
+    
+}
+.menu{
+    color: white;
+    /* display: flex; */
+    /* gap: 20px; */
+    list-style: none; 
+    /* padding-right:20px ; */
+
+}
+/* .menu:hover{
+    padding: 3px 3px;
+    background-color: blue;
+    
+} */
+
+.link{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    right: 20px;
+    top: 7px;
+    font-weight: bold;
+}
+.link:hover{
+    padding: 0px 6px;
+    background-color: blue;
+    border-radius: 4px;
+}
+img{
+    height: 30px;
+    width: 30px;
+    /* display: flex;  */
+    /* align-items: center;  */
+    /* justify-content: center; */
+    /* line-height:20px ; */
+    border-radius: 10px;
+    /* margin-top: 20px; */
+    background-color: black;
+}
+.yas{
+    color: white;
+    text-align: center;
+    /* text-decoration: none; */
+}
+.text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    /* margin-left: 950px; */
+
+}
+.text:hover{
+    padding: 3px 9px;
+    background-color: blue;
+    border-radius: 4px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-TOP: PX;
+    outline: none;
+    padding: 3PX;
+    margin-right: 40PX;
+    border: 2px solid black;
+    font-weight: bold;
+    
+
+
+}
+#list{
+    margin-left: 950px;
+}
+.button:hover{
+    padding: 3px 9px;
+    background-color: blue;
+    border-radius: 4px;
+}
+#lists{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+
+
+}
+#listss{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+/* img:hover{
+    padding: 0px 6px;
+    background-color: blue;
+    border-radius: 4px;
+} */
+.yasir{
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 16px;
+
+    /* margin-bottom: 20px; */
+    /* text-decoration: overline; */
+
+}
+.yasirrr:hover{
+    padding: px px;
+    background-color: blue;
+    border-radius: 4px;
+    /* width: 8px; */
+  
+
+}
+.yasirrr{
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 16px;
+position: relative;
+right: 6px;
+bottom:4px ;}
+
+
